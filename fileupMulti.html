@@ -1,0 +1,15 @@
+<html>
+   <head>
+     <title>File upload Node.</title>
+   </head>
+   <body>
+       <form id="uploadForm"  enctype="multipart/form-data"  action="/api/photo"  method="post">
+	       <input type='text' id='fileId' name='fileId'><br>
+	       <input type='text' id='fileDesc' name='fileDesc'><br>
+         <input type="file" name="userPhoto" multiple /><br>
+         <input type="file" name="userPhoto" multiple /><br>
+	       <input type="submit"  name="submit" value="Upload">
+       		<span id = "status"></span>
+     </form>
+   </body>
+</html>

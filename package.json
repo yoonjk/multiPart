@@ -1,0 +1,27 @@
+{
+  "name": "multipart",
+  "version": "1.0.0",
+  "description": "file upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoonjk/multiPart.git"
+  },
+  "keywords": [
+    "upload"
+  ],
+  "author": "Jaeguk Yun",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yoonjk/multiPart/issues"
+  },
+  "homepage": "https://github.com/yoonjk/multipart#readme",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "multer": "^1.3.1"
+  }
+}
